@@ -11,10 +11,10 @@
   },
   "language": "multi",
   "data_storage_setting": "everything",
-  "opt_in_signed_url": false,
+  "opt_in_signed_url": true,
   "end_call_after_silence_ms": 86400000,
-  "version": 0,
-  "is_published": false,
+  "version": 3,
+  "is_published": true,
   "version_title": "SD New",
   "post_call_analysis_model": "gpt-4.1",
   "pii_config": {
@@ -23,7 +23,7 @@
   },
   "handbook_config": {
     "default_personality": true,
-    "speech_normalization": false,
+    "speech_normalization": true,
     "ai_disclosure": true
   },
   "analysis_successful_prompt": "Evaluate whether the agent had a successful call with the user. For a successful call, the agent should have a complete conversation with user, finished the task, and have not ran into technical issues, or caused user frustration. Besides, the agent was not blocked by a call screen or encountered voicemail.",
